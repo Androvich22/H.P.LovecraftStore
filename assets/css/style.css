@@ -40,13 +40,23 @@ h1{
     display:inline-block;
     font-family: Headerfont;
 }
-
+#abm{
+    display:inline-block;
+    font-family: Headerfont;
+}
 section div.container div.row div.col-lg-4 div.card{
     /* background:linear-gradient(.45turn,#565632,#434429)*/
     box-shadow: 0 15px 0 #565632,
     inset 0 -5px 12px rgba(86, 86, 50, 0.45);
 }
 
+#eldritchCarousel img{
+    width: 1280px;
+    height: 720px;
+}
+#eldritchCarousel{
+    box-shadow: 0 0 30px rgba(86, 86, 50, 0.55);
+}
 /*#endregion */
 
 
