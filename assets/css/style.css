@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+    font-family: Headerfont;
+    src: url(../fonts/JmhcthulhumbusugRegular-j0yO.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*#region NavSettings ------*/
+.nav-link{
+    color:#fff;
+    font-size: 1.15rem;
+}
+.nav-link:hover{
+    color:#c4d167;
+    transform:translateY(-15%);
+    transition:0.5s;
+}
+/*#endregion */
+
+
+/*#region BodySettings ------*/
+
+section .container  {
+    background-color:#1a1a1a;
+    border-radius: 0.35rem;
+}
+li {
+    list-style-type: none;
+}
+body{
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+    background:url("../imgs/Site-background.png") no-repeat;
+    background-size: cover;
+}
+h1{
+    display:inline-block;
+    font-family: Headerfont;
+}
+
+section div.container div.row div.col-lg-4 div.card{
+    /* background:linear-gradient(.45turn,#565632,#434429)*/
+    box-shadow: 0 15px 0 #565632,
+    inset 0 -5px 12px rgba(86, 86, 50, 0.45);
+}
+
+/*#endregion */
+
+
+/*#region TextSettings -----*/
+
+.lvc{
+    color:#c4d167;
+}
+
+#text-anim{
+    display:inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 5px solid;
+    animation: typing 1.7s steps(24,end),
+    cursor 0.5s step-end infinite alternate;
+}   
+/*#endregion */
+
+/*#region Footer ------*/
+footer a{
+    color:#fff;
+}
+/*#endregion */
+
+/*#region Keyframes ------*/
+@keyframes cursor {
+    50%{border-color:transparent}
+}
+@keyframes typing {
+    from{width: 0}
+}
+/*#endregion */
