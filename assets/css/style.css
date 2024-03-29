@@ -23,7 +23,6 @@ html{
 
 
 /*#region BodySettings ------*/
-
 section .container  {
     background-color:#1a1a1a;
     border-radius: 0.35rem;
@@ -71,6 +70,9 @@ section div.container div.row div.col-lg-4 div.card{
 /*#region Footer ------*/
 footer a{
     color:#fff;
+}
+footer{
+    background-color:#1a1a1a;
 }
 /*#endregion */
 
