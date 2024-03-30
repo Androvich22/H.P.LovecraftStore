@@ -13,21 +13,26 @@ html{
 .nav-link{
     color:#fff;
     font-size: 1.15rem;
+    transition:all 0.5s;
 }
 .nav-link:hover{
     color:#c4d167;
+    animation-direction:alternate;
     transform:translateY(-15%);
-    transition:0.5s;
+    transition:all 0.5s;
 }
 /*#endregion */
 
 
 /*#region BodySettings ------*/
-section .container  {
-    background-color:#1a1a1a;
+section .container{
+    background:linear-gradient(rgba(26, 26, 26,0.8),rgba(26, 26, 26,0.6));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border-radius: 0.35rem;
 }
-li {
+
+#eldritchCarousel li, .nav-item{
     list-style-type: none;
 }
 body{
@@ -36,11 +41,7 @@ body{
     background:url("../imgs/Site-background.png") no-repeat;
     background-size: cover;
 }
-h1{
-    display:inline-block;
-    font-family: Headerfont;
-}
-#abm{
+h1, .lvcfont{
     display:inline-block;
     font-family: Headerfont;
 }
@@ -57,6 +58,35 @@ section div.container div.row div.col-lg-4 div.card{
 #eldritchCarousel{
     box-shadow: 0 0 30px rgba(86, 86, 50, 0.55);
 }
+footer i{
+    font-size: 1.7rem;
+}
+
+.mbbtn{
+    background:linear-gradient(rgba(86, 86, 50, 0.4),rgba(86, 86, 50, 0.8));
+    border-color: #fff;
+    color:#fff;
+    transition:all 0.5s;
+}
+.mbbtn:hover{
+    background:linear-gradient(rgba(86, 86, 50, 1),rgba(255,255,255,0.6));
+    animation-direction:alternate;
+    transform:translateY(-10%);
+    transition:all 0.5s;
+}
+.btn-close{
+    background-color:#fff;
+}
+.modal-content{
+    background-color:rgba(26, 26, 26,0.9);
+}
+.modal-footer .btn{
+    background-color: #fff;
+    color:#1a1a1a;
+}
+.modal-footer .btn:hover{
+    background-color: #a8a6a6;
+}
 /*#endregion */
 
 
@@ -66,7 +96,7 @@ section div.container div.row div.col-lg-4 div.card{
     color:#c4d167;
 }
 
-#text-anim{
+.text-anim{
     display:inline-block;
     width: 100%;
     white-space: nowrap;

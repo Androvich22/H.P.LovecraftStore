@@ -1,11 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-    <loc>https://androvich22.github.io/Portfolio/</loc>
-    <lastmod>2024-02-27</lastmod>
-    <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
-</url>
-
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://androvich22.github.io/H.P.LovecraftStore/index.html</loc>
+		<lastmod>2024-03-30</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://androvich22.github.io/H.P.LovecraftStore/lvchorror.html</loc>
+		<lastmod>2024-03-30</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://androvich22.github.io/H.P.LovecraftStore/store.html</loc>
+		<lastmod>2024-03-30</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://androvich22.github.io/H.P.LovecraftStore/contact.html</loc>
+		<lastmod>2024-03-30</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://androvich22.github.io/H.P.LovecraftStore/about-me.html</loc>
+		<lastmod>2024-03-30</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.6</priority>
+	</url>
 </urlset>
