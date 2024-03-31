@@ -87,6 +87,13 @@ footer i{
 .modal-footer .btn:hover{
     background-color: #a8a6a6;
 }
+.map-responsive {
+    height: 100%;
+}
+.map-responsive iframe{
+    width: 80%;
+    height: 100%;
+}
 /*#endregion */
 
 
